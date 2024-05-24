@@ -2228,9 +2228,9 @@ Lampa.SettingsApi.addParam({
 if (!!window.appready) addonStart();
 else Lampa.Listener.follow('app', function(e){if (e.type === 'ready') addonStart()});	
 	
-}();
+})();
 ##############################################################################################################################################################
-function() {
+(function() {
 	'use strict';
 
 Lampa.Platform.tv();
