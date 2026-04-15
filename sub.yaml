@@ -254,3 +254,6 @@ proxy-groups:
       - 🇳🇱 NL AWG Proton
       - 🇯🇵 JP AWG Proton
       - 🇺🇸 US AWG Proton
+
+rules:
+  - MATCH,AUTO
