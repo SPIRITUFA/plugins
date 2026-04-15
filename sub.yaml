@@ -1,5 +1,5 @@
 proxies:
-- name: '🇷🇺 AWG RU'
+- name: '🇷🇺 RU AWG'
   type: wireguard
   private-key: 7wFq/HkStUexUOBBJk6oI4Q3eO23/vwoL/RfzyAQkZ4=
   server: engage.cloudflareclient.com
@@ -30,7 +30,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇷🇺 AWG RU Cyberportal X'
+- name: '🇷🇺 RU AWG Cyberportal X'
   type: wireguard
   private-key: cWJoPtfpLZpoPlk/IxLu0d8OoOnrOA1uZBl1/J2vyD4=
   server: engage.cloudflareclient.com
@@ -61,7 +61,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇳🇱 AWG NL llimonix'
+- name: '🇳🇱 NL AWG llimonix'
   type: wireguard
   private-key: 7wFq/HkStUexUOBBJk6oI4Q3eO23/vwoL/RfzyAQkZ4=
   server: nl.tribukvy.ltd
@@ -92,7 +92,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇫🇮 AWG FI llimonix'
+- name: '🇫🇮 FI AWG llimonix'
   type: wireguard
   private-key: f0CodHMcHpawgtXHH1IhpF5RahMVs1SxYez0dc0ZDIQ=
   server: fi1.tribukvy.ltd
@@ -123,7 +123,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇳🇱 AWG NL Proton'
+- name: '🇳🇱 NL AWG Proton'
   type: wireguard
   private-key: GMSXIB/4LQSwnvbUnT9pPU5UPfizYg7peNKOlP+duV4=
   server: 149.34.244.139
@@ -152,7 +152,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇯🇵 AWG JP Proton'
+- name: '🇯🇵 JP AWG Proton'
   type: wireguard
   private-key: QKWq9e5CY+I9Q9KI6/+yU6GXcC5ydK0rUxINz+wMlms=
   server: 149.88.103.43
@@ -183,7 +183,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇺🇸 AWG US Proton'
+- name: '🇺🇸 US AWG Proton'
   type: wireguard
   private-key: iIaJUB8f4NV2qSCandaFLPqFQLVY295f4KjeQH3wpHs=
   server: 149.22.88.134
@@ -212,7 +212,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: '🇱🇺 AWG LU Amnezia'
+- name: '🇱🇺 LU AWG Amnezia'
   type: wireguard
   private-key: a3C4iO6MEBi+PCpFBVKTmar6y/AH2T4TzIW2YDAObM4=
   server: 109.61.46.217
