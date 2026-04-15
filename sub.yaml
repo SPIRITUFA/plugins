@@ -1,4 +1,3 @@
-```yaml
 proxies:
   - name: "🇷🇺 RU AWG"
     type: wireguard
@@ -242,4 +241,23 @@ proxies:
     i3: ""
     i4: ""
     i5: ""
-```
+
+  - name: DIRECT
+    type: direct
+
+proxy-groups:
+  - name: AUTO
+    type: select
+    proxies:
+      - 🇷🇺 RU AWG
+      - 🇷🇺 RU AWG Cyberportal X
+      - 🇳🇱 NL AWG llimonix
+      - 🇫🇮 FI AWG llimonix
+      - 🇳🇱 NL AWG Proton
+      - 🇯🇵 JP AWG Proton
+      - 🇺🇸 US AWG Proton
+      - 🇱🇺 LU AWG Amnezia
+      - DIRECT
+
+rules:
+  - MATCH,AUTO
