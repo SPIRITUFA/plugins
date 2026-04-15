@@ -242,9 +242,6 @@ proxies:
     i4: ""
     i5: ""
 
-  - name: DIRECT
-    type: direct
-
 proxy-groups:
   - name: AUTO
     type: select
