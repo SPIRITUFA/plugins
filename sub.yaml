@@ -29,7 +29,7 @@ proxies:
       i3: ""
       i4: ""
       i5: ""
-
+      
   - name: "🇷🇺 RU AWG Cyberportal X"
     type: wireguard
     private-key: cWJoPtfpLZpoPlk/IxLu0d8OoOnrOA1uZBl1/J2vyD4=
@@ -123,7 +123,7 @@ proxies:
       i4: ""
       i5: ""
 
-- name: "🇱🇺 LU AWG Amnezia"
+  - name: "🇱🇺 LU AWG Amnezia"
     type: wireguard
     private-key: 3kZdFq44CZ8akkbWD+p9po0l7EmdVP+/Nfbj90EZQbY=
     server: 109.61.46.217
@@ -153,7 +153,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: "🇳🇱 NL AWG Proton"
+  - name: "🇳🇱 NL AWG Proton"
     type: wireguard
     private-key: GMSXIB/4LQSwnvbUnT9pPU5UPfizYg7peNKOlP+duV4=
     server: 149.34.244.139
