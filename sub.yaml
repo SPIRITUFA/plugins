@@ -1,3 +1,4 @@
+```yaml
 proxies:
   - name: "🇷🇺 RU AWG"
     type: wireguard
