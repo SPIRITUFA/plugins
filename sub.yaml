@@ -208,6 +208,10 @@ proxies:
       h3: 3
       h4: 4
       i1: "b 0xcc00000001017c00002eaf051c2b7b298c3f9f24f864c2922880246c3c2a8718c84f82fe"
+      i2: ""
+      i3: ""
+      i4: ""
+      i5: ""
 
   - name: "🇺🇸 US AWG Proton"
     type: wireguard
@@ -233,6 +237,10 @@ proxies:
       h3: 3
       h4: 4
       i1: "b 0xc60000000101f600002ef730a847c14818a65dc15db7bb458280a7fc49fcdfd5d724504316defe7d5f1adb305fe9120f27485a76319425c3"
+      i2: ""
+      i3: ""
+      i4: ""
+      i5: ""
 
 proxy-groups:
   - name: AUTO
