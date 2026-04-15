@@ -152,7 +152,10 @@ proxies:
       i3: ""
       i4: ""
       i5: ""
-      
+
+  - name: "🇳🇱 NL AWG Proton"
+    type: wireguard
+    private-key: GMSXIB/4LQSwnvbUnT9pPU5UPfizYg7peNKOlP+duV4=
     server: 149.34.244.139
     port: 51820
     ip: 10.2.0.2
