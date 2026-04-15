@@ -207,7 +207,7 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: ""
+      i1: "b 0xcc00000001017c00002eaf051c2b7b298c3f9f24f864c2922880246c3c2a8718c84f82fe"
 
   - name: "🇺🇸 US AWG Proton"
     type: wireguard
