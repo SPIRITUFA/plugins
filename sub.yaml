@@ -257,7 +257,6 @@ proxy-groups:
       - 🇯🇵 JP AWG Proton
       - 🇺🇸 US AWG Proton
       - 🇱🇺 LU AWG Amnezia
-      - DIRECT
 
 rules:
   - MATCH,AUTO
