@@ -65,7 +65,7 @@ proxies:
   type: wireguard
   private-key: M5GPNAbBmWwaVr+whA/gr+ORbNGrSmKKM1wT6UlOvus=
   server: pl.tribukvy.ltd
-  port: 864
+  port: 859
   ip: 172.16.0.4 
   ipv6: 2606:4700:110:8c2b:2f54:afa0:2eb2:f88
   dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
