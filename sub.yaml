@@ -6,7 +6,7 @@ proxies:
   port: 943
   ip: 172.16.0.2
   ipv6: 2606:4700:110:8066:d2f0:7122:3aa6:5b9b
-  dns: ['1.1.1.1', '1.0.0.1', '2606:4700:4700::1111', '2606:4700:4700::1001']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -37,7 +37,7 @@ proxies:
   port: 4500
   ip: 172.16.0.3
   ipv6: fd00:abcd:1234::2
-  dns: ['176.99.11.77', '80.78.247.254', '2a00:f940:2:4:2::5d1b', '2a00:f940:2:4:2::21ed']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -68,7 +68,7 @@ proxies:
   port: 864
   ip: 172.16.0.4 
   ipv6: 2606:4700:110:8066:d2f0:7122:3aa6:5b9b
-  dns: ['1.1.1.1', '1.0.0.1', '2606:4700:4700::1111', '2606:4700:4700::1001']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -99,7 +99,7 @@ proxies:
   port: 7156
   ip: 172.16.0.5 
   ipv6: 2606:4700:110:802e:46ae:7356:d73c:5f27
-  dns: ['1.1.1.1', '1.0.0.1', '2606:4700:4700::1111', '2606:4700:4700::1001']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -130,7 +130,7 @@ proxies:
   port: 51820
   ip: 10.2.0.2
   ipv6: fd00:2::4
-  dns: ['10.2.0.1', '2a07:b944::2:1', 'fd00:2::1']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: cZqPUUEdnSZVoKckIHHTfvS/lKEG5mslwHiPJsSG1FE=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -159,7 +159,7 @@ proxies:
   port: 51820
   ip: 10.2.0.3
   ipv6: fd00:2::9
-  dns: ['10.2.0.1', 'fd00:2::1']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: NWZ7YE+USZz0HNbpi8DDUaJlN/zv2flMvTB48K7A5kE=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -190,7 +190,7 @@ proxies:
   port: 51820
   ip: 10.2.0.4
   ipv6: 2a07:b944::2:2
-  dns: ['10.2.0.1', '2a07:b944::2:1']
+  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: +jrADbkVi4gUDKXUOoVawmddiYszxvnh4HHyyknKiBs=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -219,7 +219,7 @@ proxies:
   port: 3271
   ip: 100.75.252.59
   ipv6: fd00:2::15
-  dns: ['100.64.0.1', '8.8.4.4', 'fd00:2::1']
+  dns: ['100.64.0.1', '1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
   public-key: RD16DZi4xbL/9EGZPRYi84zOMcr7STMprHovn3SHcCU=
   pre-shared-key: oIEaPpcWtqSUiDuP5DQ1vz/4pVtmbg9UdIlxi2I/9nM=
   allowed-ips: ['0.0.0.0/0', '::/0']
