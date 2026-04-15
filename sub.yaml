@@ -6,7 +6,7 @@ proxies:
     port: 943
     ip: 172.16.0.2
     ipv6: "2606:4700:110:8066:d2f0:7122:3aa6:5b9b"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -29,7 +29,7 @@ proxies:
       i3: ""
       i4: ""
       i5: ""
-      
+
   - name: "🇷🇺 RU AWG Cyberportal X"
     type: wireguard
     private-key: cWJoPtfpLZpoPlk/IxLu0d8OoOnrOA1uZBl1/J2vyD4=
@@ -37,7 +37,7 @@ proxies:
     port: 4500
     ip: 172.16.0.3
     ipv6: "fd00:abcd:1234::2"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -68,7 +68,7 @@ proxies:
     port: 864
     ip: 172.16.0.4
     ipv6: "2606:4700:110:8066:d2f0:7122:3aa6:5b9b"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -99,7 +99,7 @@ proxies:
     port: 7156
     ip: 172.16.0.5
     ipv6: "2606:4700:110:802e:46ae:7356:d73c:5f27"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -130,7 +130,7 @@ proxies:
     port: 3271
     ip: 100.75.252.59
     ipv6: "fd00:2::16"
-    dns: ["100.64.0.1", "8.8.8.8", "2001:4860:4860::8888"]
+    dns: ["100.64.0.1", "8.8.8.8"]
     public-key: RD16DZi4xbL/9EGZPRYi84zOMcr7STMprHovn3SHcCU=
     pre-shared-key: mBs/mrmRFKyf94RdaJXHRkPqIlaga61sziqSDDzrVV8=
     allowed-ips: ["0.0.0.0/0", "::/0"]
@@ -160,7 +160,7 @@ proxies:
     port: 51820
     ip: 10.2.0.2
     ipv6: "fd00:2::4"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: cZqPUUEdnSZVoKckIHHTfvS/lKEG5mslwHiPJsSG1FE=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -189,7 +189,7 @@ proxies:
     port: 51820
     ip: 10.2.0.3
     ipv6: "fd00:2::9"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: NWZ7YE+USZz0HNbpi8DDUaJlN/zv2flMvTB48K7A5kE=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -207,12 +207,8 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-      i1: "b 0xcc00000001017c00002eaf051c2b7b298c3f9f24f864c2922880246c3c2a8718c84f82fe"
-      i2: ""
-      i3: ""
-      i4: ""
-      i5: ""
-      
+      i1: ""
+
   - name: "🇺🇸 US AWG Proton"
     type: wireguard
     private-key: iIaJUB8f4NV2qSCandaFLPqFQLVY295f4KjeQH3wpHs=
@@ -220,7 +216,7 @@ proxies:
     port: 51820
     ip: 10.2.0.4
     ipv6: "2a07:b944::2:2"
-    dns: ["1.1.1.1", "8.8.8.8", "2606:4700:4700::1111", "2001:4860:4860::8888"]
+    dns: ["1.1.1.1", "8.8.8.8"]
     public-key: +jrADbkVi4gUDKXUOoVawmddiYszxvnh4HHyyknKiBs=
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
@@ -237,10 +233,6 @@ proxies:
       h3: 3
       h4: 4
       i1: "b 0xc60000000101f600002ef730a847c14818a65dc15db7bb458280a7fc49fcdfd5d724504316defe7d5f1adb305fe9120f27485a76319425c3"
-      i2: ""
-      i3: ""
-      i4: ""
-      i5: ""
 
 proxy-groups:
   - name: AUTO
