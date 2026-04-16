@@ -30,8 +30,8 @@ proxies:
     i5: ""
 
 proxy-groups:
-  - name: 🛡️AUTO
-    type: url-test
+  - name: 🛡️FALLBACK
+    type: fallback
     proxies:
       - 🇱🇺 LU AWG Amnezia
     url: http://www.gstatic.com/generate_204
