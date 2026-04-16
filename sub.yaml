@@ -163,7 +163,7 @@ proxies:
   public-key: W58CuqiAcrmARA8pCyBHjTfSz2WzfW27a3zvN1EvdFQ=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1360
+  mtu: 1280
   persistent-keepalive: 20
   amnezia-wg-option:
     s1: 0
@@ -189,7 +189,7 @@ proxies:
   public-key: NWZ7YE+USZz0HNbpi8DDUaJlN/zv2flMvTB48K7A5kE=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1360
+  mtu: 1280
   persistent-keepalive: 20
   amnezia-wg-option:
     s1: 0
@@ -217,7 +217,7 @@ proxies:
   public-key: +jrADbkVi4gUDKXUOoVawmddiYszxvnh4HHyyknKiBs=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1360
+  mtu: 1280
   persistent-keepalive: 20
   amnezia-wg-option:
     s1: 0
