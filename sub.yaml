@@ -154,21 +154,18 @@ proxies:
 
 - name: '🇳🇱 NL AWG Proton'
   type: wireguard
-  private-key: GMSXIB/4LQSwnvbUnT9pPU5UPfizYg7peNKOlP+duV4=
-  server: 149.34.244.139
+  private-key: OICgSufxiTuqt2e76MeMrvCgGEqT6VDHIXCaToeGAVc=
+  server: 2a02:6ea0:c041:2383::10
   port: 51820
   ip: 10.2.0.2
-  ipv6: fd00:2::4
-  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
-  public-key: cZqPUUEdnSZVoKckIHHTfvS/lKEG5mslwHiPJsSG1FE=
+  ipv6: 2a07:b944::2:2
+  dns: ['10.2.0.1', '2a07:b944::2:1']
+  public-key: W58CuqiAcrmARA8pCyBHjTfSz2WzfW27a3zvN1EvdFQ=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1380
-  persistent-keepalive: 25
+  mtu: 1420
+  persistent-keepalive: 20
   amnezia-wg-option:
-    jc: 3
-    jmin: 1
-    jmax: 3
     s1: 0
     s2: 0
     h1: 1
@@ -184,20 +181,17 @@ proxies:
 - name: '🇯🇵 JP AWG Proton'
   type: wireguard
   private-key: QKWq9e5CY+I9Q9KI6/+yU6GXcC5ydK0rUxINz+wMlms=
-  server: 149.88.103.43
+  server: 2a02:6ea0:c041:2383::10
   port: 51820
   ip: 10.2.0.3
-  ipv6: fd00:2::9
-  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
+  ipv6: 2a07:b944::2:3
+  dns: ['10.2.0.1', '2a07:b944::2:1']
   public-key: NWZ7YE+USZz0HNbpi8DDUaJlN/zv2flMvTB48K7A5kE=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1380
-  persistent-keepalive: 25
+  mtu: 1420
+  persistent-keepalive: 20
   amnezia-wg-option:
-    jc: 4
-    jmin: 40
-    jmax: 70
     s1: 0
     s2: 0
     s3: 0
@@ -215,20 +209,17 @@ proxies:
 - name: '🇺🇸 US AWG Proton'
   type: wireguard
   private-key: iIaJUB8f4NV2qSCandaFLPqFQLVY295f4KjeQH3wpHs=
-  server: 149.22.88.134
+  server: 2a02:6ea0:c041:2383::10
   port: 51820
   ip: 10.2.0.4
-  ipv6: 2a07:b944::2:2
-  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
+  ipv6: 2a07:b944::2:4
+  dns: ['10.2.0.1', '2a07:b944::2:1']
   public-key: +jrADbkVi4gUDKXUOoVawmddiYszxvnh4HHyyknKiBs=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1380
-  persistent-keepalive: 25
+  mtu: 1420
+  persistent-keepalive: 20
   amnezia-wg-option:
-    jc: 3
-    jmin: 1
-    jmax: 3
     s1: 0
     s2: 0
     h1: 1
