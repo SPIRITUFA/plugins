@@ -213,8 +213,11 @@ proxies:
     i5: ""
 
 proxy-groups:
-  - name: AUTO
-    type: select
+  - name: 🛡️AUTO
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
     proxies:
       - 🇷🇺 RU AWG
       - 🇷🇺 RU AWG Cyberportal X
@@ -225,4 +228,4 @@ proxy-groups:
       - 🇺🇸 US AWG Proton
 
 rules:
-  - MATCH,AUTO
+  - MATCH,🛡️AUTO
