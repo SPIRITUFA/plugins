@@ -154,13 +154,13 @@ proxies:
 
 - name: '🇳🇱 NL AWG Proton'
   type: wireguard
-  private-key: EBjK53W7d946yKBHn4fNPyMWQbCNrovJ1UIj2W2MrUU=
-  server: 185.107.56.130
+  private-key: OPGSYua1dg+Naj6TLGdXwYGbaDmHOVSm9slgPIhY33w=
+  server: 169.150.218.31
   port: 51820
   ip: 10.2.0.2
   ipv6: 2a07:b944::2:2
   dns: ['10.2.0.1', '2a07:b944::2:1']
-  public-key: aQ8bxW84kPY54cmd75U9rIHzg/mlpV1mJluXdm/6hFI=
+  public-key: BMVFYo1dYKoCWl6QJzrGjWzRxQVD5ZQ3D4/L331J52s=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
   mtu: 1420
