@@ -166,9 +166,9 @@ proxies:
   mtu: 1420
   persistent-keepalive: 20
   amnezia-wg-option:
-    jc: 2
-    jmin: 10
-    jmax: 30
+    jc: 3
+    jmin: 1
+    jmax: 3
     s1: 0
     s2: 0
     h1: 1
