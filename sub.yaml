@@ -231,22 +231,3 @@ proxies:
     i3: ""
     i4: ""
     i5: ""
-
-proxy-groups:
-  - name: 🛡️AUTO
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇷🇺 RU AWG
-      - 🇷🇺 RU AWG Cyberportal X
-      - 🇵🇱 PL AWG llimonix
-      - 🇫🇮 FI AWG llimonix
-      - 🇱🇺 LU AWG Amnezia
-      - 🇳🇱 NL AWG Proton
-      - 🇯🇵 JP AWG Proton
-      - 🇺🇸 US AWG Proton
-
-rules:
-  - MATCH,🛡️AUTO
