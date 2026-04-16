@@ -155,7 +155,7 @@ proxies:
 - name: '🇳🇱 NL AWG Proton'
   type: wireguard
   private-key: OICgSufxiTuqt2e76MeMrvCgGEqT6VDHIXCaToeGAVc=
-  server: 2a02:6ea0:c041:2383::10
+  server: 169.150.218.137
   port: 51820
   ip: 10.2.0.2
   ipv6: 2a07:b944::2:2
@@ -181,7 +181,7 @@ proxies:
 - name: '🇯🇵 JP AWG Proton'
   type: wireguard
   private-key: QKWq9e5CY+I9Q9KI6/+yU6GXcC5ydK0rUxINz+wMlms=
-  server: 2a02:6ea0:c041:2383::10
+  server: 149.88.103.43
   port: 51820
   ip: 10.2.0.3
   ipv6: 2a07:b944::2:3
@@ -209,7 +209,7 @@ proxies:
 - name: '🇺🇸 US AWG Proton'
   type: wireguard
   private-key: iIaJUB8f4NV2qSCandaFLPqFQLVY295f4KjeQH3wpHs=
-  server: 2a02:6ea0:c041:2383::10
+  server: 149.22.88.134
   port: 51820
   ip: 10.2.0.4
   ipv6: 2a07:b944::2:4
