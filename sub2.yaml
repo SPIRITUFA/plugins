@@ -30,11 +30,12 @@ proxies:
     i5: ""
 
 proxy-groups:
-  - name: AUTO
-    type: select
+  - name: 🛡️AUTO
+    type: url-test
     proxies:
       - 🇱🇺 LU AWG Amnezia
+    url: http://www.gstatic.com/generate_204
+    interval: 300
 
 rules:
-  - MATCH,AUTO
-
+  - MATCH,🛡️AUTO
