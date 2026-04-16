@@ -129,11 +129,10 @@ proxies:
   server: 109.61.46.217
   port: 3271
   ip: 100.75.252.59
-  ipv6: fd00:2::15
-  dns: ['100.64.0.1', '1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
+  dns: ['100.64.0.1', '1.1.1.1', '8.8.8.8']
   public-key: RD16DZi4xbL/9EGZPRYi84zOMcr7STMprHovn3SHcCU=
   pre-shared-key: mBs/mrmRFKyf94RdaJXHRkPqIlaga61sziqSDDzrVV8=
-  allowed-ips: ['0.0.0.0/0', '::/0']
+  allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1280
   persistent-keepalive: 25
