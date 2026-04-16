@@ -160,7 +160,7 @@ proxies:
   ip: 10.2.0.2
   ipv6: 2a07:b944::2:2
   dns: ['10.2.0.1', '2a07:b944::2:1']
-  public-key: W58CuqiAcrmARA8pCyBHjTfSz2WzfW27a3zvN1EvdFQ=
+  public-key: aQ8bxW84kPY54cmd75U9rIHzg/mlpV1mJluXdm/6hFI=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
   mtu: 1280
