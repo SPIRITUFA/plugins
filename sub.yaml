@@ -251,6 +251,7 @@ proxies:
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
   mtu: 1420
+  persistent-keepalive: 20
   amnezia-wg-option:
     jc: 3
     jmin: 1
