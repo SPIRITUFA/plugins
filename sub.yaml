@@ -6,7 +6,7 @@ proxies:
   port: 943
   ip: 172.16.0.2
   ipv6: 2606:4700:110:8066:d2f0:7122:3aa6:5b9b
-  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
+  dns: ['1.1.1.1', '1.0.0.1', '2606:4700:4700::1111', '2606:4700:4700::1001']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
@@ -25,37 +25,6 @@ proxies:
     h3: 3
     h4: 4
     i1: <b 0xcc00000001017c00002eaf051c2b7b298c3f9f24f864c2922880246c3c2a8718c84f82fe53b3499376ab3069af5fc0707d9af21200746f01>
-    i2: ""
-    i3: ""
-    i4: ""
-    i5: ""
-
-- name: '🇷🇺 RU AWG Cyberportal X'
-  type: wireguard
-  private-key: cWJoPtfpLZpoPlk/IxLu0d8OoOnrOA1uZBl1/J2vyD4=
-  server: engage.cloudflareclient.com
-  port: 4500
-  ip: 172.16.0.3
-  ipv6: fd00:abcd:1234::2
-  dns: ['1.1.1.1', '8.8.8.8', '2606:4700:4700::1111', '2001:4860:4860::8888']
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  allowed-ips: ['0.0.0.0/0', '::/0']
-  udp: true
-  mtu: 1280
-  persistent-keepalive: 25
-  amnezia-wg-option:
-    jc: 5
-    jmin: 100
-    jmax: 200
-    s1: 0
-    s2: 0
-    s3: 0
-    s4: 0
-    h1: 1
-    h2: 2
-    h3: 3
-    h4: 4
-    i1: <b 0xca0000000101b8000040563a2e325d28d4fd3086c88e7d5b203c17526455b7ae3ae3003589d270f2f2f3cde79adff81e007787fb7de1a61fc30ad9a5aba694cfbe7abb432119bf7b951a4038cdbe0cb8fbe2d260f8a2262b3f692340bee89f4b34>
     i2: ""
     i3: ""
     i4: ""
