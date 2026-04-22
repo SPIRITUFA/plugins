@@ -1,9 +1,9 @@
 proxies:
 - name: '🇪🇪 EE AWG llimonix'
   type: wireguard
-  private-key: b0yAhQj8dK80d2TNiwm/zngxHBoFMAU/pqSszE+dwYU=
+  private-key: Odi36pB0OWUgT7hbLQ9W0YRNWaXmWm+AkzgvUVxyY1g=
   server: ee.tribukvy.ltd
-  port: 942
+  port: 1074
   ip: 172.16.0.2
   dns: ['1.1.1.1', '1.0.0.1']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
