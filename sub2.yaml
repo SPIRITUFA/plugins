@@ -7,7 +7,7 @@ proxies:
   ip: 172.16.0.2
   dns: ['1.1.1.1', '1.0.0.1']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  allowed-ips: ['0.0.0.0/0', '::/0']
+  allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1380
   amnezia-wg-option:
@@ -36,7 +36,7 @@ proxies:
   ip: 172.16.0.3
   dns: ['1.1.1.1', '1.0.0.1']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  allowed-ips: ['0.0.0.0/0', '::/0']
+  allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1380
   amnezia-wg-option:
@@ -65,7 +65,7 @@ proxies:
   ip: 172.16.0.4
   dns: ['1.1.1.1', '1.0.0.1']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  allowed-ips: ['0.0.0.0/0', '::/0']
+  allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1380
   amnezia-wg-option:
@@ -88,22 +88,22 @@ proxies:
 
 - name: '🇱🇺 LU AWG Amnezia'
   type: wireguard
-  private-key: liHCY9SSSj5hB9+EqumbT2EaQkh0tcdKHuXY3YpSZlo=
-  server: 109.61.46.217
-  port: 3271
-  ip: 100.75.252.38
+  private-key: w1a8EkSq5stNtflv1kcAEbDLZtFwfG50BBPO49zGlhg=
+  server: 45.140.17.105
+  port: 3684
+  ip: 100.116.100.213
   dns: ['100.64.0.1', '8.8.4.4']
   public-key: kRIXYkTr5m5J1l69xYjmh7IDZWHmyeel1oyheu7XNQA=
-  pre-shared-key: wG6fR41uIovthpdp9EPcuBMFPcRyHeo0WKJRDP4gJm0=
+  pre-shared-key: CLZeM/lwKbML4RZgHsWKDTDM+yH0ABDMsTB5lIW+dWE=
   allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1420
   amnezia-wg-option:
-    jc: 2
+    jc: 3
     jmin: 10
-    jmax: 30
-    s1: 115
-    s2: 43
+    jmax: 50
+    s1: 69
+    s2: 116
     h1: 2029866595
     h2: 320448425
     h3: 399675443
@@ -122,7 +122,7 @@ proxies:
   ip: 172.16.0.5
   dns: ['1.1.1.1', '1.0.0.1']
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  allowed-ips: ['0.0.0.0/0', '::/0']
+  allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1380
   amnezia-wg-option:
