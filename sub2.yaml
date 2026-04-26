@@ -86,7 +86,7 @@ proxies:
     i4: ""
     i5: ""    
 
-- name: '🇱🇺 LU AWG Amnezia'
+- name: '🇳🇱 NL AWG Amnezia'
   type: wireguard
   private-key: w1a8EkSq5stNtflv1kcAEbDLZtFwfG50BBPO49zGlhg=
   server: 45.140.17.105
