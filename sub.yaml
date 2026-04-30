@@ -299,58 +299,58 @@ proxies:
     i4: ""
     i5: ""
     
-- name: "🇸🇪 SE Sure"
-    type: vless
-    server: se-node-1.mysura.org
-    port: 10443
-    uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-      short-id: 62ac
+- name: '🇸🇪 SE Sure'
+  type: vless
+  server: se-node-1.mysura.org
+  port: 10443
+  uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: 62ac
 
-  - name: "🇸🇪 SE Sure_2"
-    type: vless
-    server: se-node-2.mysura.org
-    port: 10443
-    uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-      short-id: 62ac
+- name: '🇸🇪 SE Sure_2'
+  type: vless
+  server: se-node-2.mysura.org
+  port: 10443
+  uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: 62ac
 
-  - name: "🇸🇪 SE Sure_3"
-    type: vless
-    server: se-node-3.mysura.org
-    port: 10443
-    uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    reality-opts:
-      public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-      short-id: 62ac
+- name: '🇸🇪 SE Sure_3'
+  type: vless
+  server: se-node-3.mysura.org
+  port: 10443
+  uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: apple.com
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: 62ac
 
-  - name: "🇫🇷 FR Sure"
-    type: vless
-    server: fr-node-1.mysura.org
-    port: 10443
-    uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    reality-opts:
-      public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-      short-id: 62ac
+- name: '🇫🇷 FR Sure'
+  type: vless
+  server: fr-node-1.mysura.org
+  port: 10443
+  uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: apple.com
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: 62ac
