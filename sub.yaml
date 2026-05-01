@@ -185,21 +185,21 @@ proxies:
     
 - name: '🇱🇺 LU AWG Amnezia'
   type: wireguard
-  private-key: 3kZdFq44CZ8akkbWD+p9po0l7EmdVP+/Nfbj90EZQbY=
+  private-key: hYbNb4adp26bYJWm+Alv84COmx1Ik5FV1mq+CCJDQoo=
   server: 109.61.46.217
   port: 3271
   ip: 100.75.252.59
   dns: ['100.64.0.1', '1.1.1.1', '8.8.8.8']
   public-key: RD16DZi4xbL/9EGZPRYi84zOMcr7STMprHovn3SHcCU=
-  pre-shared-key: mBs/mrmRFKyf94RdaJXHRkPqIlaga61sziqSDDzrVV8=
+  pre-shared-key: 6LMhhabH26brrxaIxhaEiunNKim4+kkW8Tu3PM7sJnw=
   allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1420
   persistent-keepalive: 20
   amnezia-wg-option:
-    jc: 2
+    jc: 6
     jmin: 10
-    jmax: 30
+    jmax: 50
     s1: 115
     s2: 43
     h1: 565689839
