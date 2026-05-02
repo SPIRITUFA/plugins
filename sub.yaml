@@ -359,7 +359,7 @@ proxies:
     short-id: 62ac
   client-fingerprint: chrome
 
-- name: '🇸🇪 SE Sure'
+- name: '🇸🇪 SE Sure_4'
   type: vless
   server: se-node-1.mysura.org
   port: 10443
