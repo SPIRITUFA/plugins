@@ -298,21 +298,6 @@ proxies:
     i3: ""
     i4: ""
     i5: ""
-    
-- name: '🇸🇪 SE Sure'
-  type: vless
-  server: se-node-1.mysura.org
-  port: 10443
-  uuid: 1d84b45c-548b-4ff6-8b0a-9d7470cfddb6
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: apple.com
-  reality-opts:
-    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-    short-id: 62ac
-  client-fingerprint: chrome
 
 - name: '🇸🇪 SE Sure_2'
   type: vless
@@ -359,9 +344,9 @@ proxies:
     short-id: 62ac
   client-fingerprint: chrome 
 
-- name: '🇸🇪 SE Sure_4'
+- name: '🇸🇪 SE Sure'
   type: vless
-  server: se-node-4.mysura.org
+  server: se-node-1.mysura.org
   port: 10443
   uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
   network: tcp
