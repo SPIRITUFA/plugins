@@ -8,10 +8,10 @@ proxies:
   tls: true
   udp: true
   flow: xtls-rprx-vision
-  client-fingerprint: edge
   reality-opts:
     public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
     short-id: ad7dab462a323acb
+  client-fingerprint: chrome
 
 - name: 144.31.220.155:443
   type: vless
@@ -22,10 +22,10 @@ proxies:
   tls: true
   udp: true
   flow: xtls-rprx-vision
-  client-fingerprint: edge
   reality-opts:
     public-key: n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8
     short-id: 
+  client-fingerprint: chrome
 
 - name: ne.vpn.freetato.ru:9443
   type: vless
@@ -36,10 +36,10 @@ proxies:
   tls: true
   udp: true
   flow: xtls-rprx-vision
-  client-fingerprint: edge
   reality-opts:
     public-key: Rg6Y3iNmviUL7r3Y5IOCsuNSjeTsJ391O1oN3rGxXHU
     short-id: 86b4c2d438b0ca4f#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+  client-fingerprint: chrome
 
 - name: pl-cdn.ru:443
   type: vless
@@ -50,10 +50,10 @@ proxies:
   tls: true
   udp: true
   flow: xtls-rprx-vision
-  client-fingerprint: edge
   reality-opts:
     public-key: fz-ncRVRmWnpd2sFb5Q3bR3BQEdpL6N_zbDSD16g5QI
     short-id: 7a3f9e2b1c8d4f6a
+  client-fingerprint: chrome
 
 - name: 89.208.230.199:8443
   type: vless
