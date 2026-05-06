@@ -356,3 +356,18 @@ proxies:
     public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
     short-id: 62ac
   client-fingerprint: chrome 
+
+- name: '🇱🇻 LV Latvia'
+    type: vless
+    server: lv-cdn.ru
+    port: 443
+    uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: lv-cdn.ru
+    reality-opts:
+      public-key: iUHMpeBEuXr_vSzZUBMZD2ENv2dZIr8e1-g6OzX1NRQ
+      short-id: 39a629c6c90bd2eb 
+    client-fingerprint: edge
