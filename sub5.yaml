@@ -1,0 +1,252 @@
+proxies:
+- name: lv-cdn.ru:443
+    type: vless
+    server: lv-cdn.ru
+    port: 443
+    uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: iUHMpeBEuXr_vSzZUBMZD2ENv2dZIr8e1-g6OzX1NRQ
+      short-id: 39a629c6c90bd2eb
+      
+- name: cl-eu-1.edgeflux.ru:52006
+    type: vless
+    server: cl-eu-1.edgeflux.ru
+    port: 52006
+    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 
+      short-id: 
+      
+- name: de-cdn.ru:443
+    type: vless
+    server: de-cdn.ru
+    port: 443
+    uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+      short-id: f7d0420b8ab26060
+      
+- name: se-cdn.ru:443
+    type: vless
+    server: se-cdn.ru
+    port: 443
+    uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+      short-id: 2d6d073dc88f22a8
+      
+- name: nl-cdn.ru:443
+    type: vless
+    server: nl-cdn.ru
+    port: 443
+    uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU
+      short-id: c9b0c990b745646d
+      
+ - name: pl-3-direct.memeplanet.org:443
+    type: vless
+    server: pl-3-direct.memeplanet.org
+    port: 443
+    uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: UDAInVyAQ5nU8cWS2SvC6mJ09aak6gIsPEXCjXkB00Q
+      short-id: 8ac90e6b636226f7
+      
+- name: india.cloud-cdn.org:3443
+    type: vless
+    server: india.cloud-cdn.org
+    port: 3443
+    uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: AdSCtMttNJ-KQuURl1ynBdy8DtAbCUFG6G2qB-GbTXU
+      short-id: bc755b173467c322
+      
+- name: 176.123.8.28:443
+    type: vless
+    server: 176.123.8.28
+    port: 443
+    uuid: 7b13eaac-882d-43a0-b19e-6d2e867d624e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw
+      short-id: 
+      
+- name: v2ray.simspeedup.com:80
+    type: vless
+    server: v2ray.simspeedup.com
+    port: 80
+    uuid: 3c52e091-6714-4915-949f-2149fe69951b
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 
+      short-id: 
+      
+- name: 74.119.194.234:443
+    type: vless
+    server: 74.119.194.234
+    port: 443
+    uuid: 77280cb4-583d-4e7c-9863-f6d6360ae99d
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: hEV8UAgt4wyparM-bujTBXw1yefc-5bh2S3we2ewwjk
+      short-id: 4626821f22
+      
+ - name: 142.171.158.56:443
+    type: vless
+    server: 142.171.158.56
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 
+      short-id: 
+      
+- name: 51.250.97.92:8443
+    type: vless
+    server: 51.250.97.92
+    port: 8443
+    uuid: 3b9c35a3-9d43-4f8a-bc8c-b618b4fa10db
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+      short-id: 2cfb5a0ae8ab0cb0
+      
+- name: 51.250.94.95:443
+    type: vless
+    server: 51.250.94.95
+    port: 443
+    uuid: b00ca755-3b35-43f6-8cbb-29366af485d4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D%20YA
+      short-id: 
+      
+- name: reserve.pilates.rodeo:2053
+    type: vless
+    server: reserve.pilates.rodeo
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 
+      short-id: 
+      
+- name: 109.120.188.54:443
+    type: vless
+    server: 109.120.188.54
+    port: 443
+    uuid: 119a2ebd-a026-4647-a22b-cc02bdb74f45
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE
+      short-id: 1ca44564cda56661#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D%20VK
+      
+- name: 51.250.108.107:443
+    type: vless
+    server: 51.250.108.107
+    port: 443
+    uuid: 119a2ebd-a026-4647-a22b-cc02bdb74f45
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: kKiat1UsRVMj7F5APS8MMMDbwFE6fUI5maS3oMsrTgI
+      short-id: 27e53bbcab7593d7#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D%20YA
+      
+- name: 84.201.167.122:3002
+    type: vless
+    server: 84.201.167.122
+    port: 3002
+    uuid: 412eb16d-3cf1-4cfa-a13a-087623b7d37c
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI
+      short-id: 9fea04bb0545cac5
+      
+- name: 158.160.250.161:443
+    type: vless
+    server: 158.160.250.161
+    port: 443
+    uuid: 616f5216-aaf1-4983-8c79-7ee9b2dfdf02
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY
+      short-id: b99e82f6d99f6e
