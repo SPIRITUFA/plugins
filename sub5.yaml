@@ -1,0 +1,141 @@
+proxies:
+- name: ee.keepsecured.net:443
+  type: vless
+  server: ee.keepsecured.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
+    short-id: ad7dab462a323acb
+
+- name: 144.31.220.155:443
+  type: vless
+  server: 144.31.220.155
+  port: 443
+  uuid: cf8cc192-6120-4a60-945f-5ce91aee4175
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8
+    short-id: 
+
+- name: ne.vpn.freetato.ru:9443
+  type: vless
+  server: ne.vpn.freetato.ru
+  port: 9443
+  uuid: 8cc2cf38-9c8a-40e6-bf64-022ecf4e0cd6
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: Rg6Y3iNmviUL7r3Y5IOCsuNSjeTsJ391O1oN3rGxXHU
+    short-id: 86b4c2d438b0ca4f#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+
+- name: pl-cdn.ru:443
+  type: vless
+  server: pl-cdn.ru
+  port: 443
+  uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: fz-ncRVRmWnpd2sFb5Q3bR3BQEdpL6N_zbDSD16g5QI
+    short-id: 7a3f9e2b1c8d4f6a
+
+- name: 89.208.230.199:8443
+  type: vless
+  server: 89.208.230.199
+  port: 8443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
+    short-id: ad7dab462a323acb
+
+- name: 51.250.94.95:443
+  type: vless
+  server: 51.250.94.95
+  port: 443
+  uuid: 5ada7f5d-eb1d-4147-95b4-c899ac4defed
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D%20YA
+    short-id: 
+
+- name: 158.160.106.23:443
+  type: vless
+  server: 158.160.106.23
+  port: 443
+  uuid: e0c50154-2eb5-45b7-9c71-9a76d1adcf82
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: -5N6BJPDvTQm7vVOFpNnoJrZDaOsPccu6SeZGPGKEkI
+    short-id: 3626b118a6e54d7b#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D%20YA
+
+- name: 51.250.7.125:5443
+  type: vless
+  server: 51.250.7.125
+  port: 5443
+  uuid: da480704-17d4-4695-a481-77a1959b8963
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 7ibca15-im9GR65wrb0N-ij1qdUftpcxTwNxHn9HPUw
+    short-id: 6ba85179e30d4fc2#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D%20YA
+
+- name: 84.201.147.213:7443
+  type: vless
+  server: 84.201.147.213
+  port: 7443
+  uuid: da480704-17d4-4695-a481-77a1959b8963
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 7ibca15-im9GR65wrb0N-ij1qdUftpcxTwNxHn9HPUw
+    short-id: 6ba85179e30d4fc2#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%5B%2ACIDR%5D%20YA
+
+- name: 178.154.206.14:443
+  type: vless
+  server: 178.154.206.14
+  port: 443
+  uuid: e31a303c-a8f0-4189-9bdf-2312d15253d2
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  reality-opts:
+    public-key: SSR8qHHHwFhf-LHig6DhZFoglHdVdImR6upc5DcpmHI#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20YA
+    short-id: 
+
