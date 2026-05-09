@@ -357,14 +357,18 @@ proxies:
     short-id: 62ac
   client-fingerprint: chrome 
 
-- name: 'Test'
+- name: 'Anycast-IP | [IPv6] | [BL]'
   type: vless
   server: 45.85.119.191
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  udp: true
   tls: true
+  udp: true
+  flow: none
   servername: sni.my111000.tech
-  client-fingerprint: chrome
-  skip-cert-verify: true
+  reality-opts:
+    # Отключение параметров, если они не заданы
+    public-key: null
+    short-id: null
+  client-fingerprint: null
