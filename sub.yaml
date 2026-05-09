@@ -356,3 +356,48 @@ proxies:
     public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
     short-id: 62ac
   client-fingerprint: chrome
+
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU - 135.106.137.105
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: 221d6ffa
+  server: 135.106.137.105
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 221d6ffa-6f8e-495a-a604-6972b6b93a0c
+  
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 US - myau.nethcloud.top
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: e9888b9b
+  server: myau.nethcloud.top
+  servername: wikihow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9888b9b-658b-4f51-94f3-b8ba80e4ef91
+  
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 GB - 25.129.196.191
+  network: tcp
+  port: 2096
+  reality-opts:
+    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
+    short-id: 6202b230
+  server: 25.129.196.191
+  servername: sni.my111000.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d  
