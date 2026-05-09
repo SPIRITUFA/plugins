@@ -355,21 +355,4 @@ proxies:
   reality-opts:
     public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
     short-id: 62ac
-  client-fingerprint: chrome 
-
-- name: 🇬🇧 GB - 25.26.27.191
-  type: vless
-  server: 25.26.27.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: sni.my111000.tech
-  reality-opts:
-    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-    short-id: 6202b230
   client-fingerprint: chrome
-
-  
