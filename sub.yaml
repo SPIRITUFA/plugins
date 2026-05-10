@@ -356,3 +356,18 @@ proxies:
     public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
     short-id: 62ac
   client-fingerprint: chrome
+
+- name: '🇷🇺 TG'
+  type: vless
+  server: telegram.looks-free.rutube.info
+  port: 443
+  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
+  network: tcp
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: tradingview.com
+  reality-opts:
+    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
+    short-id: bf45
+  client-fingerprint: qq
