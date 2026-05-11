@@ -371,3 +371,16 @@ proxies:
     public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
     short-id: bf45
   client-fingerprint: chrome
+
+- name: '🇨🇳 TELEGRAM FREE'
+  type: vless
+  server: nl.tarnsidefarm.ru
+  port: 1000
+  uuid: 8921f6f8-7ec2-4289-98fe-dc22f54ed3cf
+  network: tcp
+  udp: true
+  tls: true
+  servername: nl.tarnsidefarm.ru
+  client-fingerprint: chrome
+  alpn: ['h2', 'http/1.1', 'h3']
+  skip-cert-verify: true
