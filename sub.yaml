@@ -183,33 +183,28 @@ proxies:
     
 - name: '🇱🇺 LU AWG Amnezia'
   type: wireguard
-  private-key: hYbNb4adp26bYJWm+Alv84COmx1Ik5FV1mq+CCJDQoo=
-  server: 109.61.46.217
-  port: 3271
-  ip: 100.75.252.59
-  dns: ['100.64.0.1', '1.1.1.1', '8.8.8.8']
-  public-key: RD16DZi4xbL/9EGZPRYi84zOMcr7STMprHovn3SHcCU=
-  pre-shared-key: 6LMhhabH26brrxaIxhaEiunNKim4+kkW8Tu3PM7sJnw=
+  private-key: 0S1MqtbMU+sNMwjiWb8Y8HwCCCP/Is0Y08UGcXWiI1A=
+  server: 85.234.64.123
+  port: 3329
+  ip: 100.75.252.60
+  dns: ['100.64.0.1', '8.8.4.4']
+  public-key: OPA+PfO5J6u1HsqkjEyvlMuNLygFf9B1Bd/se7INQCM=
+  pre-shared-key: +M87JVd995rJ7i+HlMCBcyqYAysaODeOgBshSDMp2EU=
   allowed-ips: ['0.0.0.0/0']
   udp: true
   mtu: 1420
-  persistent-keepalive: 20
+  persistent-keepalive: 25
   amnezia-wg-option:
-    jc: 6
+    jc: 2
     jmin: 10
     jmax: 50
-    s1: 115
-    s2: 43
-    h1: 565689839
-    h2: 103628376
-    h3: 1749597501
-    h4: 542302196
-    i1: <b 0xce0000000101b50000405203bb742d7bb99bdd1254422bd70f4c0e734d6ba6b92eb45fa7a7ec0d8b022bdb426a2ad46918c42640ad0a3e1f1699533dba478818a650aa358185787467ab63f91d2be209fd3efb4a440c1af489daee31eb>
-    i2: ""
-    i3: ""
-    i4: ""
-    i5: ""
-
+    s1: 66
+    s2: 124
+    h1: 632928441
+    h2: 727122950
+    h3: 122132859
+    h4: 1492991173
+    
 - name: '🇳🇱 NL AWG Proton'
   type: wireguard
   private-key: iFP4VtIG5iV4hr55wVDJaUP2eEYyHZaYC0N04g9s1nA=
