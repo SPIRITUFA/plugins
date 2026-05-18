@@ -382,7 +382,7 @@ proxies:
      short-id: 62ac
   client-fingerprint: chrome
 
-- name: '🌐Free TG'
+- name: '🌐 Free TG'
   type: vless
   server: telegram.looks-free.rutube.info
   port: 443
