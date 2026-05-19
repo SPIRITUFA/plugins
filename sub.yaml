@@ -454,3 +454,19 @@ proxies:
     public-key: "Pyn-CZrKJEIoM7mcj__Eosc4F03CpqvwRZEqlJzqOnQ"
     short-id: "e6df8954df22"
   client-fingerprint: chrome
+
+- name: "🇱🇻 LV | 138.124.182.202:2443"
+  type: vless
+  server: 138.124.182.202
+  port: 2443
+  uuid: dc6dcd8e-c28b-47da-a5ec-26cd7f3b3835
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.amd.com
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: "UWHMXbFoFMGjxO2B2r5mWchgsuVVPZnorUsp6fTFkjk"
+    short-id: "8a6b4b4a04"
+  client-fingerprint: chrome
+
