@@ -456,7 +456,7 @@ proxies:
     public-key: "xoJg4Yjw9uC7_fU2-KTZEI80T2BMyohQtP8ZvtRIpxM"
     short-id: "39212a0fd9ef8f3e"
 
-- name: "🇷🇺 RU | 84.23.53.16:443"
+- name: "🇵🇱 PL | 84.23.53.16:443"
   type: vless
   server: 84.23.53.16
   port: 443
@@ -485,18 +485,3 @@ proxies:
   reality-opts:
     public-key: "L4kWgoTxqQc4kAGLrF_ARMRVMPy3_WInhjwt_8OPenU"
     short-id: "c19de8fa"
-
-- name: "🇸🇪 SE | swe-8t.freeonline.pro:443"
-  type: vless
-  server: swe-8t.freeonline.pro
-  port: 443
-  uuid: 8546145579
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: "978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8"
-    short-id: "bdac121c7debdaba"
