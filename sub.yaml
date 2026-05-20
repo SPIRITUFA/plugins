@@ -486,7 +486,7 @@ proxies:
     public-key: "L4kWgoTxqQc4kAGLrF_ARMRVMPy3_WInhjwt_8OPenU"
     short-id: "c19de8fa"
 
-- name: "🇸🇪 SE | swe-8t.freeonline.pro:443 (0 ms)"
+- name: "🇸🇪 SE | swe-8t.freeonline.pro:443"
   type: vless
   server: swe-8t.freeonline.pro
   port: 443
