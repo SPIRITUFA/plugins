@@ -322,31 +322,16 @@ proxies:
     i4: ""
     i5: ""
 
-- name: "🇸🇪 SuraVPN"
+- name: "🇸🇪 SuraVPN NEW"
   type: vless
-  server: 78.40.117.199
+  server: 89.22.224.48
   port: 443
   uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
   network: tcp
-  udp: true
   tls: true
-  servername: apple.com
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
-    short-id: 62ac
-  client-fingerprint: chrome
-
-- name: "🇸🇪 SuraVPN_2"
-  type: vless
-  server: 77.221.136.124
-  port: 443
-  uuid: 6a988ad4-6353-4de8-98db-bd1c23aff11a
-  network: tcp
   udp: true
-  tls: true
-  servername: www.apple.com
   flow: xtls-rprx-vision
+  servername: www.nvidia.com
   reality-opts:
     public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
     short-id: 62ac
