@@ -316,19 +316,19 @@ proxies:
 
 - name: "🔷 [FREE] Telegram"
   type: vless
-  server: telegram.looks-free.rutube.info
+  server: 89.169.39.55
   port: 443
   uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
   network: tcp
   tls: true
   udp: true
-  servername: tradingview.com
+  servername: max.ru
   flow: xtls-rprx-vision
+  client-fingerprint: qq
   reality-opts:
     public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: "08"
-  client-fingerprint: qq
-  skip-cert-verify: false
+    short-id: 1f7854fbfe
+  skip-cert-verify: true
 
 - name: '🇨🇳 TELEGRAM FREE'
   type: vless
