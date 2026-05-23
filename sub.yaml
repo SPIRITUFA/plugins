@@ -327,7 +327,7 @@ proxies:
   client-fingerprint: qq
   reality-opts:
     public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: 1f7854fbfe
+    short-id: "08"
   skip-cert-verify: true
 
 - name: '🇨🇳 TELEGRAM FREE'
