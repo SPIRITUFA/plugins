@@ -223,7 +223,7 @@ proxies:
   public-key: BMVFYo1dYKoCWl6QJzrGjWzRxQVD5ZQ3D4/L331J52s=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
-  mtu: 1420
+  mtu: 1380
   persistent-keepalive: 20
   amnezia-wg-option:
     jc: 3
