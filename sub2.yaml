@@ -86,34 +86,6 @@ proxies:
     i4: ""
     i5: ""    
 
-- name: '🇳🇱 NL AWG Amnezia'
-  type: wireguard
-  private-key: w1a8EkSq5stNtflv1kcAEbDLZtFwfG50BBPO49zGlhg=
-  server: 45.140.17.105
-  port: 3684
-  ip: 100.116.100.213
-  dns: ['100.64.0.1', '8.8.4.4']
-  public-key: kRIXYkTr5m5J1l69xYjmh7IDZWHmyeel1oyheu7XNQA=
-  pre-shared-key: CLZeM/lwKbML4RZgHsWKDTDM+yH0ABDMsTB5lIW+dWE=
-  allowed-ips: ['0.0.0.0/0']
-  udp: true
-  mtu: 1420
-  amnezia-wg-option:
-    jc: 3
-    jmin: 10
-    jmax: 50
-    s1: 69
-    s2: 116
-    h1: 2029866595
-    h2: 320448425
-    h3: 399675443
-    h4: 467247983
-    i1: <b 0xce0000000101b50000405203bb742d7bb99bdd1254422bd70f4c0e734d6ba6b92eb45fa7a7ec0d8b022bdb426a2ad46918c42640ad0a3e1f1699533dba478818a650aa358185787467ab63f91d2be209fd3efb4a440c1af489daee31eb>
-    i2: ""
-    i3: ""
-    i4: ""
-    i5: ""
-
 - name: '🇷🇺 RU AWG'
   type: wireguard
   private-key: z74QGXlCy1eee579y4Nb0olSGaG8UVf3S5fmutSVRaE=
