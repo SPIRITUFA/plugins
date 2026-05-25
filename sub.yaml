@@ -386,7 +386,7 @@ proxies:
     i4: ""
     i5: ""
 
-- name: "🇸🇪 SuraVPN"
+- name: "🇸🇪 SE Sura"
   type: vless
   server: 89.22.224.48
   port: 443
