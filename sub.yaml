@@ -400,19 +400,3 @@ proxies:
     public-key: 1JUbiBB28VdTxZqOBAnj5krtIhOoplT3bGAb30m3e2g
     short-id: 62ac
   client-fingerprint: chrome
-
-- name: "🔷 [FREE] Telegram"
-  type: vless
-  server: 89.169.39.55
-  port: 443
-  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
-  network: tcp
-  tls: true
-  udp: true
-  servername: max.ru
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: "825867"
-  skip-cert-verify: true
