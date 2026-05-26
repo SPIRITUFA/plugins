@@ -274,13 +274,13 @@ proxies:
 
 - name: '🇳🇱 NL AWG Proton 2'
   type: wireguard
-  private-key: 6NamYM3RhC2p83D+NJAOyXyN1ZkyzcLJDQPGmNnscHA=
-  server: 185.107.80.36
+  private-key: +DG2VeHCxiCmfMX762tKhFwBW8aPyP+PxexLehbzb1o=
+  server: 169.150.218.26
   port: 51820
-  ip: 10.2.0.6
-  ipv6: 2a07:b944::2:6
+  ip: 10.2.0.2
+  ipv6: 2a07:b944::2:2
   dns: ['10.2.0.1', '2a07:b944::2:1']
-  public-key: 6feB39hRbn6JcvQ11wuwV23E0ErStdIbONfzzIuSH00=
+  public-key: uZp/DOcYSAVEHjK8Ht9jG0K9pa2+Oe5rVXVglFHq6R8=
   allowed-ips: ['0.0.0.0/0', '::/0']
   udp: true
   mtu: 1420
@@ -305,8 +305,8 @@ proxies:
   private-key: qNBEaE6EFOS8D+NDQfT+qpjSIoGj/KNvflX12c70aGU=
   server: 149.88.103.162
   port: 51820
-  ip: 10.2.0.3
-  ipv6: 2a07:b944::2:3
+  ip: 10.2.0.2
+  ipv6: 2a07:b944::2:2
   dns: ['10.2.0.1', '2a07:b944::2:1']
   public-key: sKWRXpOQRf5Q7LUaBvCAGUTOI5IonZg7+NFRHHiX3xE=
   allowed-ips: ['0.0.0.0/0', '::/0']
@@ -334,8 +334,8 @@ proxies:
   private-key: eGql2CsQkUkBPsNySJf+qlZdMO19bYJSV3s2QlvNyUA=
   server: 146.70.230.82
   port: 51820
-  ip: 10.2.0.4
-  ipv6: 2a07:b944::2:4
+  ip: 10.2.0.2
+  ipv6: 2a07:b944::2:2
   dns: ['10.2.0.1', '2a07:b944::2:1']
   public-key: LnAW4J80mzbBRPWuJyPcT1H04MElAYZus93sOG4WCFE=
   allowed-ips: ['0.0.0.0/0', '::/0']
