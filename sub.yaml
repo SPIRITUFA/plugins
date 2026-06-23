@@ -2,8 +2,8 @@ proxies:
 - name: '🇷🇺 RU AWG'
   type: wireguard
   private-key: 7wFq/HkStUexUOBBJk6oI4Q3eO23/vwoL/RfzyAQkZ4=
-  server: 2a02:898:146:64::a29f:C602
-  port: 2408
+  server: engage.cloudflareclient.com
+  port: 943
   ip: 172.16.0.2
   ipv6: 2606:4700:110:8066:d2f0:7122:3aa6:5b9b
   dns: ['1.1.1.1', '1.0.0.1', '2606:4700:4700::1111', '2606:4700:4700::1001']
@@ -64,7 +64,7 @@ proxies:
 - name: '🇷🇺 RU_3 AWG'
   type: wireguard
   private-key: mPhfs96yGFblrL4XKNQwqulosSsnqFmget2HAQxuoXg=
-  server: engage.cloudflareclient.com
+  server: 2a02:898:146:64::a29f:C602
   port: 2408
   ip: 172.16.0.4
   ipv6: 2606:4700:110:8a60:45dd:1acf:7369:4369
