@@ -64,7 +64,7 @@ proxies:
 - name: '🇷🇺 RU_3 AWG'
   type: wireguard
   private-key: mPhfs96yGFblrL4XKNQwqulosSsnqFmget2HAQxuoXg=
-  server: 2a02:898:146:64::a29f:C602
+  server: engage.cloudflareclient.com
   port: 2408
   ip: 172.16.0.4
   ipv6: 2606:4700:110:8a60:45dd:1acf:7369:4369
