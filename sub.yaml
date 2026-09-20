@@ -212,7 +212,7 @@ proxies:
 
 - name: '🇯🇵 JP AWG Proton'
   type: wireguard
-  private-key: qNBEaE6EFOS8D+NDQfT+qpjSIoGj/KNvflX12c70aGU=
+  private-key: qC4xzt8hQiMQrHsDPCerE+wGCYGbc1NjsRFNTLFKa2U=
   server: 212.102.51.115
   port: 51820
   ip: 10.2.0.2
